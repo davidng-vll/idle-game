@@ -7,11 +7,11 @@ Let's make a game!
 	version:1
  
 Settings
-	background:https://orteil.dashnet.org/igm/stuff/meadow.jpg
+	background:https://github.com/davidng-vll/idle-game/blob/main/meadow.jpg?raw=true
 	building cost increase:115%
 	building cost refund:50%
-	spritesheet:icons, 48 by 48, https://orteil.dashnet.org/igm/stuff/bunnyIcons.png
-	stylesheet:https://orteil.dashnet.org/igm/stuff/bigBlue.css
+	spritesheet:icons, 48 by 48, https://github.com/davidng-vll/idle-game/blob/main/bunnyIcons.png?raw=true
+	stylesheet:https://github.com/davidng-vll/idle-game/blob/main/bigBlue.css?raw=true
  
 Layout
 	use default
@@ -23,7 +23,7 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 bunny
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
-		icon:https://orteil.dashnet.org/igm/stuff/bunny.png
+		icon:https://github.com/davidng-vll/idle-game/blob/main/bunny.png?raw=true
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
@@ -51,7 +51,7 @@ Shinies
 		movement:onRight moveLeft fade bounce:0.05
 		frequency:60
 		frequency variation:30
-		icon:https://orteil.dashnet.org/igm/stuff/luckyBunny.png
+		icon:https://github.com/davidng-vll/idle-game/blob/main/luckyBunny.png?raw=true
 		class:bigButton
 		on click:
 			$boost=1
